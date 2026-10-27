@@ -1,0 +1,9 @@
+check,value
+rows with complete coordinates,1452
+unique coordinate pairs,1440
+rows sharing a coordinate with another record,24
+coordinates inside the broad Bali bounding box,1445
+coordinates outside the broad Bali bounding box,7
+coordinates invalid at global scale,0
+bounding box latitude,-9.3 to -7.7
+bounding box longitude,114.3 to 115.9

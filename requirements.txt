@@ -1,0 +1,13 @@
+# Core analysis
+pandas>=2.0,<4
+numpy>=1.24,<3
+scipy>=1.10,<2
+matplotlib>=3.7,<4
+pyproj>=3.5,<4
+
+# Notebook execution and lightweight tests
+jupyter>=1.0
+nbformat>=5.7
+nbclient>=0.7
+ipykernel>=6
+pytest>=7

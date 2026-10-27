@@ -1,0 +1,5 @@
+label,group,value,n,groups,statistic,p_value,epsilon_squared
+Google rating by category,kategori,rating,1437,4,32.808405142504775,3.534737029774127e-07,0.020801399262041016
+Google rating by regency or city,kabupaten_kota,rating,1437,9,34.845346212528554,2.852959136891975e-05,0.018799262053591424
+Rating count by category,kategori,jumlah_rating,1437,4,20.82790010045642,0.00011430483616030546,0.01244096308475675
+Rating count by regency or city,kabupaten_kota,jumlah_rating,1437,9,87.75798612481346,1.325041531307122e-15,0.0558529314599534

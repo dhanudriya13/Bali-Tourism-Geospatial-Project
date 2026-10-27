@@ -1,0 +1,12 @@
+column,expected,non_null,missing,unique_values,example_value
+id_tempat,True,1452,0,1452,BL0101001
+nama_tempat_wisata,True,1452,0,1437,Patung Titi Banda
+kategori,True,1452,0,4,Umum
+kecamatan,True,1452,0,56,Denpasar Barat
+kabupaten_kota,True,1452,0,9,Kota Denpasar
+rating,True,1452,0,23,4.6
+jumlah_rating,True,1452,0,671,1941
+latitude,True,1452,0,1439,-8.6492916
+longitude,True,1452,0,1440,115.2550434
+link_google_maps,True,1452,0,1452,https://www.google.com/maps/place/Patung+Titi+Banda/data=!4m7!3m6!1s0x2dd24075cfb1c9ab:0x504b91c49fa2dafa!8m2!3d-8.6492916!4d115.2550434!16s%2Fg%2F11bwyh98t_!19sChIJq8mxz3VA0i0R-tqin8SRS1A?authuser=0&hl=id&rclk=1
+link_gambar,True,1448,4,1446,https://lh3.googleusercontent.com/gps-cs-s/AHVAwepj0M0HszQhl8Cr2NIYC_zpTSsGaRkOqN3I3Z81iSi9tzwY3sR5-1nLk4g8cSxGoAMZndl_rk4QxOD-06lIopi_QzfpbloJIx9RA6JAatGi30MZUt5jmWIR1CYadPp8Mab32jah=w1080-h720-k-no

@@ -1,0 +1,20 @@
+step,rule,rows_flagged,rows_excluded,note
+Audit,Rows in source file,1452,0,Raw file is preserved unchanged.
+Cleaning,Leading or trailing whitespace trimmed in text fields,0,0,Only surrounding whitespace was removed.
+Cleaning,Numeric fields that could not be parsed,0,0,Unparseable values are retained in the audit output.
+Flagging,Rating recorded as zero,15,15,"A zero is treated as an unrated record, not as a literal quality score."
+Flagging,Rating outside 0 to 5,0,0,
+Flagging,Missing rating,0,0,
+Flagging,Missing rating count,0,0,
+Flagging,Negative rating count,0,0,
+Flagging,Fractional rating count,0,0,
+Flagging,Rating count recorded as zero,15,0,Retained in the data but excluded from the rating-count association.
+Flagging,Missing coordinates,0,0,
+Flagging,Coordinates invalid at global scale,0,0,
+Flagging,Coordinates outside the broad Bali bounding box,7,7,Excluded only from geographic mapping and spatial analysis.
+Flagging,Rows sharing a coordinate with at least one other record,24,0,Retained; sensitivity analysis aggregates coincident locations.
+Flagging,Rows whose name is repeated after case and whitespace normalisation,34,0,Names alone are not treated as evidence of duplication.
+Flagging,"Rows matching another record on name, coordinates, rating, and count",4,0,Exported for review; retained in the primary analysis.
+Flagging,Missing image link,4,0,
+Sample,Eligible for geographic mapping,1445,7,Requires non-missing coordinates inside the broad Bali bounding box.
+Sample,Eligible for rating summaries and rating-count association,1437,15,"Requires a rating above zero, at most 5, and a positive whole-number rating count."

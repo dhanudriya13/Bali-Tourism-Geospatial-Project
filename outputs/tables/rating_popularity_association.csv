@@ -1,0 +1,2 @@
+analysis,x,y,n,rho,p_value,ci_low,ci_high,bootstrap_replicates,bootstrap_requested,unique_x,unique_y,ci_method,pearson_raw_r,pearson_raw_p,pearson_log_r,pearson_log_p
+Spearman rank correlation,rating,jumlah_rating,1437,-0.2184660350471811,5.4883538476995346e-17,-0.2741300031014339,-0.165800308846699,2000,2000,22,670,Percentile bootstrap of paired records; seed set.,-0.019647729571787696,0.45674002502195654,-0.11390949848691247,1.5020069488885815e-05

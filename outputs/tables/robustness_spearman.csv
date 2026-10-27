@@ -1,0 +1,8 @@
+specification,n,rho,p_value,direction
+Primary: rating above 0 and positive count,1437,-0.2184660350471811,5.4883538476995346e-17,negative
+Include zero ratings and zero counts as observed values,1452,-0.18085182445831677,3.844863215452698e-12,negative
+Exclude all records flagged as likely duplicates,1433,-0.2189865657471733,5.095559514385991e-17,negative
+"Deduplicate matching records, keep first",1435,-0.21872468260843778,5.290824141731732e-17,negative
+Exclude records sharing a coordinate,1414,-0.21473393960386483,3.269575979096316e-16,negative
+Restrict to records inside the Bali bounding box,1430,-0.21648211244343996,1.2575394747260397e-16,negative
+Restrict to ratings of 4 or above,1380,-0.27241260923370264,6.617798827008487e-25,negative

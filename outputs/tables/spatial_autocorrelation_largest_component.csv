@@ -1,0 +1,2 @@
+variable,k,n,morans_i,expected_i,p_perm_greater,p_perm_two_sided,permutations,components,min_neighbours,max_neighbours,component
+log_jumlah_rating,8,1367,0.11876682632029244,-0.0007320644216691069,0.001,0.001,999,1,8,8,largest connected component

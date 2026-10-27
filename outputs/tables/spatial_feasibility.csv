@@ -1,0 +1,9 @@
+check,value
+records in spatial sample,1430
+unique coordinate pairs,1419
+coincident records in full data,24
+primary k,8
+connected components at primary k,2
+minimum neighbours,8
+maximum neighbours,8
+row-standardised weights sum to one,True

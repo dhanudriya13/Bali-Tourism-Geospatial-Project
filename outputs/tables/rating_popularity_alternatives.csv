@@ -1,0 +1,4 @@
+method,variables,n,statistic,p_value
+Spearman rank,rating versus count,1437,-0.2184660350471811,5.4883538476995346e-17
+Pearson raw,rating versus count,1437,-0.019647729571787696,0.45674002502195654
+Pearson log1p count,rating versus log1p(count),1437,-0.11390949848691247,1.5020069488885815e-05
